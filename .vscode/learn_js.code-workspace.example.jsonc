@@ -1,0 +1,65 @@
+{
+  "folders": [{ "path": ".." }],
+  "settings": {
+    "workbench.colorTheme": "Dark+ Material",
+    "editor.fontFamily": "Cascadia Code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 22,
+    "editor.snippetSuggestions": "bottom",
+    "editor.suggest.localityBonus": true,
+    "editor.lineHeight": 36,
+    "editor.formatOnSave": false,
+    "files.exclude": {
+      "**/.git": true,
+      "**/.DS_Store": true,
+      "**/node_modules": true
+    },
+    "files.watcherExclude": {
+      "**/.git": true,
+      "**/.DS_Store": true,
+      "**/node_modules": true
+    },
+    "search.exclude": {
+      "**/.git": true,
+      "**/.DS_Store": true
+    },
+    "typescript.format.enable": false,
+    "html.format.enable": false,
+    "editor.formatOnPaste": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    },
+    "[html]": { "editor.formatOnSave": true },
+    "[typescript]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+      }
+    },
+    "[scss]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    },
+    "prettier.singleQuote": true,
+    "beautify.language": {
+      "js": {
+        "type": ["javascript"],
+        "filename": [".jshintrc", ".jsbeautifyrc"]
+      },
+      "html": ["htm", "html"]
+    }
+  }
+}
