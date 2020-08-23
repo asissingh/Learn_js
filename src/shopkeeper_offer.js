@@ -1,11 +1,11 @@
 let totalChocolates = 10;
-const totalWraper = totalChocolates;
+let totalWrapper = totalChocolates;
 
-while (totalWraper <= 3) {
-  const newChocolates = Math.floor(totalWraper / 3);
-  const remainingWarper = totalWraper % 3;
+while (totalWrapper >= 3) {
+  const newChocolates = Math.floor(totalWrapper / 3);
+  const remainingWrapper = totalWrapper % 3;
   totalChocolates += newChocolates;
-  totalWarpers = newChocolates + remainingWarper;
+  totalWrapper = newChocolates + remainingWrapper;
 }
 console.log(totalChocolates);
-console.log(totalWraper);
+console.log(totalWrapper);
